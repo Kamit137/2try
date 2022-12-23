@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class Player_move : MonoBehaviour
 {
+    public TMP_Text t1;
     public float gr;
     public float speed_Move =9f;
     public float speed_run = 13f;
@@ -56,6 +58,7 @@ public class Player_move : MonoBehaviour
                 speed_current = speed_Move;
             }
         }
+        
         Move_D.y -= gr;
         if (Input.GetKey(KeyCode.LeftShift))
         {
