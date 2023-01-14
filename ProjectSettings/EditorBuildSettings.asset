@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/map/ESCAPE1.unity
     guid: f7b36624a587d6748b912cadcef09423
+  - enabled: 1
+    path: Assets/Cave.unity
+    guid: 2d13737f44ba58843810509c04bae0e5
   m_configObjects: {}
