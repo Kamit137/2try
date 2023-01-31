@@ -4,20 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/map/Resephn.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
-    path: Assets/map/ESCAPE1.unity
-    guid: f7b36624a587d6748b912cadcef09423
-  - enabled: 1
-    path: Assets/map/Cave.unity
-    guid: 2d13737f44ba58843810509c04bae0e5
-  m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: d3d0fa9e926134a4ba72879c481c0d09,
-      type: 2}
-    Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: cfa8a16056f74654f8e17b7557394ee3,
-      type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2bd4682a2c11d414893afe2bcd6e2a9e,
-      type: 2}
+  m_Scenes: []
+  m_configObjects: {}
