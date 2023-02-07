@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -10635,6 +10635,122 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.3892866, y: 4.2767553, z: 1.5063096}
   m_Center: {x: -0.045609202, y: 2.1382766, z: -0.11009981}
+--- !u!1 &925602059 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8391222552659086748, guid: 61b1dc5ad99979940b76f0da87ce27e4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1111197772}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &925602061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925602059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f32883eed859804dbb0c5fedac91496, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  axisOfRotation: 0
+  childCollider: {fileID: 0}
+  linearMapping: {fileID: 0}
+  hoverLock: 0
+  limited: 0
+  frozenDistanceMinMaxThreshold: {x: 0.1, y: 0.2}
+  onFrozenDistanceThreshold:
+    m_PersistentCalls:
+      m_Calls: []
+  minAngle: -45
+  freezeOnMin: 0
+  onMinAngle:
+    m_PersistentCalls:
+      m_Calls: []
+  maxAngle: 45
+  freezeOnMax: 0
+  onMaxAngle:
+    m_PersistentCalls:
+      m_Calls: []
+  forceStart: 0
+  startAngle: 0
+  rotateGameObject: 1
+  debugPath: 0
+  dbgPathLimit: 50
+  debugText: {fileID: 0}
+  outAngle: 0
+--- !u!114 &925602062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925602059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7e348dbe1c867548a3a41ede70dec84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHeight: {fileID: 0}
+  minHeight: {fileID: 0}
+  maxAngle: 720
+  bucket: {fileID: 0}
+  circularDrive: {fileID: 0}
+  interactableDrive: {fileID: 0}
+  maxSpeedToDown: 100
+  timerBeforeFall: 1
+--- !u!114 &925602063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925602059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activateActionSetOnAttach:
+    actionSetPath: 
+  hideHandOnAttach: 1
+  hideSkeletonOnAttach: 0
+  hideControllerOnAttach: 0
+  handAnimationOnPickup: 0
+  setRangeOfMotionOnPickup: -1
+  useHandObjectAttachmentPoint: 1
+  attachEaseIn: 0
+  snapAttachEaseInCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  snapAttachEaseInTime: 0.15
+  snapAttachEaseInCompleted: 0
+  skeletonPoser: {fileID: 0}
+  handFollowTransform: 1
+  highlightOnHover: 1
+  hideHighlight: []
+  hoverPriority: 0
 --- !u!1 &933275026
 GameObject:
   m_ObjectHideFlags: 0
@@ -12874,7 +12990,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 61b1dc5ad99979940b76f0da87ce27e4,
         type: 3}
       propertyPath: m_Name
-      value: Medieval_Well (1)
+      value: Colodec
       objectReference: {fileID: 0}
     - target: {fileID: 1035660250657310122, guid: 61b1dc5ad99979940b76f0da87ce27e4,
         type: 3}
@@ -12883,6 +12999,32 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 678148bbc7991453c9e9951efed7c866, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61b1dc5ad99979940b76f0da87ce27e4, type: 3}
+--- !u!1 &1111197774 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -432750874053079279, guid: 61b1dc5ad99979940b76f0da87ce27e4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1111197772}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1111197776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111197774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7e348dbe1c867548a3a41ede70dec84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHeight: {fileID: 0}
+  minHeight: {fileID: 0}
+  maxAngle: 0
+  bucket: {fileID: 0}
+  circularDrive: {fileID: 0}
+  interactableDrive: {fileID: 0}
+  maxSpeedToDown: 10
+  timerBeforeFall: 1
 --- !u!1001 &1112052243
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18473,6 +18615,37 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 95dcb3b3c88b84d6abdbd8cda6f9bfb8, type: 3}
+--- !u!1 &1526957716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1526957717}
+  m_Layer: 0
+  m_Name: DriveParent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1526957717
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526957716}
+  m_LocalRotation: {x: 0.7051201, y: 0.7045863, z: -0.055777848, w: -0.057031333}
+  m_LocalPosition: {x: 19.07027, y: 7.6800127, z: 91.31396}
+  m_LocalScale: {x: 3.2804, y: 3.2804, z: 3.2804}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 134
+  m_LocalEulerAnglesHint: {x: -0.105, y: 189.15, z: 90.035}
 --- !u!1 &1569111323
 GameObject:
   m_ObjectHideFlags: 0
