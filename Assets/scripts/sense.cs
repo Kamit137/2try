@@ -5,8 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class sense : MonoBehaviour
 {
-
-
+    public string nameSence;
     private void OnTriggerEnter(Collider other)
     {
 
@@ -14,7 +13,7 @@ public class sense : MonoBehaviour
     }
     void TP()
     {
-        SceneManager.LoadScene("ESCAPE1", LoadSceneMode.Single);
+        SceneManager.LoadScene(nameSence, LoadSceneMode.Single);
     }
 
 }
